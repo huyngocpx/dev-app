@@ -11,6 +11,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'dotenv-rails', :groups => [:development, :test]
 gem "unicorn"
+gem "slim-rails"
+gem 'rubocop', require: false
 
 group :development, :test do
   gem 'byebug'
